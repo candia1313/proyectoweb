@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fad8b8; /* Fondo rosa claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel{
+    margin-top: 200px;
+}
+
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #442915, #693b18); /* Degradado rosa */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+
+.nav-link:hover, .nav-link.active {
+    font-family: 'Gabriola';
+    font-size: 100%;
+    color: #fef4f8;
+    text-decoration: underline;
+}
+
+.nav-item {
+    font-size: 100%;
+    font-family: 'Gabriola';
+    margin-bottom: 10px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    color: #000000;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #ffc9dd;
+    color: #000000;
+}
+
+/* Sticky Navbar */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+/* Button (Toggler) 
+.navbar-toggler {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}*/
+
+
+/* Hover degrade Navbar */
+.navbar:hover {
+    background: linear-gradient(90deg, #693b18, #442915);
+    transition: background 1.0s ease;
+}
+
+
+
+
+/* Carousel */
+.carousel-caption {
+    background: rgba(248, 202, 229, 0.815);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+/* Section Headers */
+h3 {
+    font-family: 'Gabriola';
+    color: #000000;
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Cards in Columns */
+.container .col img {
+    
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:0px 0px 30px rgb(250, 189, 232);
+}
+
+.container .col p {
+    font-family: 'Freestyle Script';
+    margin-top: 10px;
+    font-size: 180%;
+    color: #000000;
+}
+
+/* Footer */
+.footer {
+    background-color: #c29b77;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
+
+.footer .social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .social-icon:hover {
+    color: #fdf2f8;
+    text-decoration: underline;
+}
+
+/* stilos de contacto */
+

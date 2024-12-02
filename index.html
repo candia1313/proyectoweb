@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoWeb Camila Ramirez-Liz Candia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Menu principal -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark" style="padding: 5px 0;">
+        <div class="container-fluid d-flex flex-column align-items-center">
+            <a class="navbar-brand mb-3" href="#">
+                <!-- imagen -->
+                <img src="logo.png" alt="" style="height: 100px; width: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="skincare.html">SkinCare</a></li>
+                            <li><a class="dropdown-item" href="makeup.html">MakeUp</a></li>
+                            <li><a class="dropdown-item" href="otros.html">Otros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider de imagenes -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://hudabeauty.com/on/demandware.static/-/Library-Sites-HudaSharedContent/default/dw72d6c3ea/2024/2024_HP_assets/D-A2-FINAL.jpg?text=Labiales+con+Estilo"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Novedades</h5>
+                    <p>Descubre las tendencias del momento.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://hudabeauty.com/on/demandware.static/-/Library-Sites-HudaSharedContent/default/dwe0feb5cf/2024/2024_HP_assets/WITHOUT-EB-COMING-SOON-DATES-d.jpg?text=Sombras+Increíbles"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ofertas</h5>
+                    <p>Descubre ofertas a una bajo precio, por cualquier festividad.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://hudabeauty.com/on/demandware.static/-/Library-Sites-HudaSharedContent/default/dwc067fa1c/2024/2024_HP_assets/D-A1-YUM-BOUJEE.jpg?text=Rutina+de+Belleza"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Colaboraciones</h5>
+                    <p>Las mejores colaboraciones con artistas con reconocimiento.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Division por columnas -->
+    <hr>
+    <h3>Lo mas popular del momento.</h3>
+    <hr>
+    <div class="container text-center">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/bcsparkle1.png?v=1729032238&width=360/400"
+                    alt="">
+                <p>Blush Crush Lip & Cheek Balm.</p>
+            </div>
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/0C5A4510_1.jpg?v=1719874306&width=360/400"
+                    alt="">
+                <p>Iluminador</p>
+            </div>
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/Blotted_6253f0be-a3ae-47bd-b1c4-90263f1f1c8a.png?v=1723586777&width=360/400"
+                    alt="">
+                <p>Polvo/iluminador</p>
+            </div>
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/250-STY-ball-2000_PX.jpg?v=1721667501&width=823/400"
+                    alt="">
+                <p>Delineador liquido</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h3>Lo mas buscado en Paletas de Sombras.</h3>
+    <hr>
+    <div class="container text-center">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="https://beautycreationscosmetics.com.mx/cdn/shop/files/bcc-backup-beauty-creations-tease-me-paleta-de-sombras-cosmetics-e18t-911682.webp?v=1723581920"
+                    alt="">
+            </div>
+            <div class="col">
+                <img src="https://beautycreationscosmetics.com.mx/cdn/shop/files/bcc-backup-beauty-creations-floral-bloom-eye-bloom-paleta-de-sombras-cosmetics-ep12-490604.jpg?v=1723505345"
+                    alt="">
+            </div>
+            <div class="col">
+                <img src="https://beautycreationscosmetics.com.mx/cdn/shop/files/bcc-backup-beauty-creations-paleta-de-sombras-nude-x-mini-unseen-paleta-de-sombras-cosmetics-nxe-9a-483055.webp?v=1723512185"
+                    alt="">
+            </div>
+            <div class="col">
+                <img src="https://beautycreationscosmetics.com.mx/cdn/shop/files/bcc-backup-beauty-creations-paleta-de-sombras-overdressed-vol-2-luis-torres-x-beauty-creations-vol-2-cosmetics-lt2-e25-722709.jpg?v=1723557786"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- segundo slider -->
+    <hr>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" style="margin-top: 10px;">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="https://www.maybelline.com/-/media/project/loreal/brand-sites/mny/americas/us/homepage/product-carousel/tips-and-trends/maybelline-tips-trends-banner-2160x810.jpg?rev=adf3df3bc151491a837fff15f9394712&cx=0.66&cy=0.42&cw=1440&ch=540&hash=549D39A461F0E225A83A93D90E6819F1"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-nyxcosmetics-us-Library/en_US/dwce7ac995/homepage/2024/Q4/202502XX-DMI-NGL-HPV2-ALaunch-WSLS-Banner-Global-1440x1440.jpg?sw=2000&sh=2000&sm=fit&q=70"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="https://www.maccosmetics.com/media/export/cms/collections/11.13.2024/1113_02_SingleBanner_Desktop-1.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- division por culumnas -->
+    <hr>
+    <h3>Lo mas buscado en productos de cuidado personal.</h3>
+    <hr>
+    <div class="container text-center">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="https://i.pinimg.com/474x/18/54/85/1854856d179e1ecbb0d93ab53708bca9.jpg"
+                    alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/474x/54/45/ad/5445ad9cd9558e609aa076c91aa29d59.jpg"
+                    alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/236x/be/d5/94/bed594dd3c56086cdaf09684d01d81c8.jpg"
+                    alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/474x/bd/99/a3/bd99a3f0e5a1705c89156cc367f07a80.jpg"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <hr>
+    <footer class="footer">
+        <div class="container-fluid">
+            <p>&copy; 2024. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422200.png" alt="Instagram Icon" width="30px">
+                <a href="https://www.instagram.com/" target="_blank" class="social-icon">Instagram</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422204.png" alt="Pinterest Icon" width="30px">
+                <a href="https://es.pinterest.com/" target="_blank" class="social-icon">Pinterest</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422199.png" alt="Facebook Icon" width="30px">
+                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank" class="social-icon">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

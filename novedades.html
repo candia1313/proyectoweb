@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoWeb Camila Ramirez-Liz Candia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Menu principal -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark" style="padding: 5px 0;">
+        <div class="container-fluid d-flex flex-column align-items-center">
+            <a class="navbar-brand mb-3" href="#">
+                <!-- imagen -->
+                <img src="logo.png" alt="" style="height: 100px; width: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="skincare.html">SkinCare</a></li>
+                            <li><a class="dropdown-item" href="makeup.html">MakeUp</a></li>
+                            <li><a class="dropdown-item" href="otros.html">Otros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- contenido de la pagina -->
+    <!-- Division por columnas -->
+    <hr>
+    <h3 style="margin-top: 190px;">Lo mas nuevo</h3>
+    <hr>
+    <div class="container text-center">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/P.H.A.T_n_Jelly_Cooling_Water_Tint.png?v=1719001493&width=360"
+                    alt="">
+                <p>P.H.A.T n' Jelly Cooling Water Tint</p>
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal1">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal1Label">P.H.A.T n' Jelly Cooling Water Tint
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>85Bs.</p>
+                                <p>¡Descubre PHAT N Jelly Cooling Water Tint, el maquillaje esencial perfecto para el
+                                    verano! 🌊🍒 Este innovador rubor en gelatina presenta una fórmula refrescante que
+                                    se desliza suavemente sobre tu piel.</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20P.H.A.T n'%20Jelly%20Cooling%20Water%20Tint"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/174-PO-MAIN.jpg?v=1702509465&width=360" alt="">
+                <p>Thirsty Pout Hi-Shine Lip Gloss</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal2">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal2Label">Thirsty Pout Hi-Shine Lip Gloss</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>35Bs.</p>
+                                <p>¡Haz que tus labios sean jugosos, regordetes e irresistibles con el brillo labial
+                                    Thirsty Pout Hi-Shine! La fórmula suave y sedosa agrega un tinte de color puro al
+                                    tiempo que hidrata los labios para lucir mejor. ¡Su dulce olor y sabor a chocolate
+                                    te obsesionará! Disponible en 12 tonos de acabados con brillo y sin brillo, cada uno
+                                    perfectamente equilibrado con pigmento y brillo.</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20Thirsty%20Pout%20Hi-Shine%20Lip%20Gloss"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <img src="https://cdn.shopify.com/s/files/1/0448/7122/1416/products/129-05-warm_beige.jpg?v=1724182624"
+                    alt="">
+                <p>Mineral Full Coverage Powder</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal3">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal3Label">Mineral Full Coverage Powder</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>55Bs.</p>
+                                <p>Al proporcionar una cobertura personalizable superior que se puede usar en húmedo o
+                                    en seco sin un aspecto apelmazado, está hecho con ingredientes naturales que
+                                    incluyen pigmentos minerales potentes que combinan con la piel y mantienen una tez
+                                    saludable. Da una sensación de aire impecable que emana un hermoso aspecto impecable
+                                    SPF 10</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20Mineral%20Full%20Coverage%20Powder"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/1032-PO.jpg?v=1691515561&width=360" alt="">
+                <p>UltraFine Lip Liner</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal4">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal4Label">UltraFine Lip Liner</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>40Bs.</p>
+                                <p>Aplica para delinear tus labios antes de aplicar tu lápiz labial favorito. Los
+                                    delineadores de labios ayudan a ocultar cualquier sangrado de lápiz labial y
+                                    proporcionan un contorno suave de los labios. Italia Deluxe es un delineador de
+                                    labios imprescindible. ¡Solo delineador de labios que proporciona un color altamente
+                                    pigmentado con tanta facilidad de aplicación a un precio barato!</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20UltraFine%20Lip%20Liner"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h3>Descuentos por Navidad</h3>
+    <hr>
+    <div class="container text-center">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="https://skin1004.com/cdn/shop/products/skin1004-ampoule-serum-centella-ampoule-38642800132342_1440x.png?v=1677148695"
+                    alt="">
+                <p>Centella Ampoule</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal5">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5lLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal5Label">Centella Ampoule</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>85Bs.</p>
+                                <p>Pureheal's Centella 80 Crema para ojos, crema de ojos de textura ligera, zona ocular
+                                    nutritiva, extracto de centella asiática 80%, 1.0 fl oz (1.01 fl oz)</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20Centella%20Ampoule"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <img src="https://www.beautycreationscosmetics.com/cdn/shop/files/bebella-blonde-eyebrow-gel-beauty-creations-940939.jpg?v=1724078739"
+                    alt="" height="310px">
+                <p>Bebella Eyebrown</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal6">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal6Label">Bebella Eyebrown</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>60Bs.</p>
+                                <p>Anastasia Beverly Hills Brow Freeze presenta nuestro agarre de cejas más fuerte hasta
+                                    el momento Esta cera personalizable para peinar cejas levanta, domesa y esculpe cada
+                                    cabello en su lugar para la ceja de aspecto emplumado que siempre has querido.</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20Bebella%20Eyebrown"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <img src="https://italiadeluxemakeup.com/cdn/shop/files/696B-STY-3.jpg?v=1701375022&width=360" alt="">
+                <p>Melt Off Makeup Remover Balm</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal7">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal7Label">Melt Off Makeup Remover Balm</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>90Bs.</p>
+                                <p>Kimtrue Bálsamo limpiador Meltaway de 3ª generación, bálsamo removedor de maquillaje
+                                    para todo tipo de piel, rímel, delineador de ojos y maquillaje, limpiador facial de
+                                    aceite, hidratante.</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20Melt%20Off%20Makeup%20Remover%20Balm"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <img src="https://beautycreationscosmetics.com.mx/cdn/shop/files/bcc-backup-beauty-creations-paleta-de-sombras-overdressed-vol-2-luis-torres-x-beauty-creations-vol-2-cosmetics-lt2-e25-722709.jpg?v=1723557786"
+                    alt="">
+                <p>Urban Decay Naked3</p>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal8">
+                    Ver detalles de producto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modal8Label">Urban Decay Naked3</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>110Bs.</p>
+                                <p>Urban Decay Naked3 - Minipaleta de sombras de ojos, paleta de maquillaje pigmentado
+                                    de ojos para llevar a todas partes, ultradifuminable, hasta 12 horas de uso</p>
+                                <a href="https://wa.me/1234567890?text=Hola%20estoy%20interesado%20en%20Urban%20Decay%20Naked3"
+                                    target="_blank">
+                                    <button
+                                        style="background-color: #cca8be; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+                                        Enviar Mensaje
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- segundo slider -->
+    <hr>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" style="margin-top: 50px;">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="https://www.laroche-posay.es/-/media/project/loreal/brand-sites/lrp/emea/es/simple-page/landing-page/effaclar-spotscan-plus/la-roche-posay-spotscan-plus-1_2024-genericbanner-1-mobile.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.maybelline.com/-/media/project/loreal/brand-sites/mny/americas/us/navigation/eye-makeup/virtual-try-on/maybelline-nav-virtual-try-on-694x262.jpg?rev=2769cb11b76745009d9b4637e20b9930"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="https://www.maybelline.com/-/media/project/loreal/brand-sites/mny/americas/us/homepage/product-carousel/super-stay-teddy-tint/homepagestill-mny-makl-ssteddytint-developed-1440x540.jpg?rev=64a1b0b180b94129a1a7f95e65b562a2&cx=0&cy=0&cw=1440&ch=540&hash=BC6B637C4222B4DB9370462B56E5397C"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- columnas -->
+    <br>
+    <hr>
+    <div class="container text-center">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="https://i.pinimg.com/474x/18/54/85/1854856d179e1ecbb0d93ab53708bca9.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/474x/54/45/ad/5445ad9cd9558e609aa076c91aa29d59.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/236x/be/d5/94/bed594dd3c56086cdaf09684d01d81c8.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/474x/bd/99/a3/bd99a3f0e5a1705c89156cc367f07a80.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- footer -->
+    <hr>
+    <footer class="footer">
+        <div class="container-fluid">
+            <p>&copy; 2024. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422200.png" alt="Instagram Icon" width="30px">
+                <a href="#" target="_blank" class="social-icon">Instagram</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422204.png" alt="Pinterest Icon" width="30px">
+                <a href="#" target="_blank" class="social-icon">Pinterest</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422199.png" alt="Facebook Icon" width="30px">
+                <a href="#" target="_blank" class="social-icon">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
